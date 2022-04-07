@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* CSS Reset */
+body{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../images/bg.jpg') 100%;
+    font-family: Ubuntu;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    /* background-color: blueviolet; */
+    height: 10vh;
+}
+.left{
+    /* border: 1px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 2px;
+    top: 20px;
+}
+
+.left .logo{
+    width: 100%;
+}
+.left .logo ul{
+    list-style: none;
+}
+.left .logo ul a{
+    text-decoration: none;
+    color: #F7F6F4;
+    font-size: 20px;
+    font-weight: 700;
+}
+.left .logo ul a span{
+    color: #A3A5A8;
+    font-size: 25px;
+}
+.mid{
+    border: 1px solid rgb(0, 255, 21);
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+}
+.right{
+    border: 1px solid rgb(255, 238, 0);
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+    top: 20px;
+}
